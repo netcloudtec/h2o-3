@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compile 'io.minio:minio:3.0.3'
+    // Upgrade http client since the old version was colliding with other plugins
+    compile 'org.apache.httpcomponents:httpclient:4.5.2'
+}
+

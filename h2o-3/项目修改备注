@@ -1,0 +1,10 @@
+将导入HDFS中的数据独立出来
+添加的类如下：
+RequestHDFSApi
+HdfsOpHandler
+HdfsOpV3
+PersistEntryExtension
+FilePropertiesSchema
+
+将将HdfsOpV3、FilePropertiesSchema添加到 src\main\resources\META-INF\services\water.api.Schema中
+将RequestHDFSApi添加到  META-INF/services/water.api.RestApiExtension
