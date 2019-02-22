@@ -8,3 +8,6 @@ FilePropertiesSchema
 
 将将HdfsOpV3、FilePropertiesSchema添加到 src\main\resources\META-INF\services\water.api.Schema中
 将RequestHDFSApi添加到  META-INF/services/water.api.RestApiExtension
+
+
+本地平台调用本地后台接口在切分数据的时候 需要将flow2.js 中的tai.runif改为h2o.runif

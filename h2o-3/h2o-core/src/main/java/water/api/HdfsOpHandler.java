@@ -70,7 +70,7 @@ public class HdfsOpHandler extends Handler {
             ;
         }
 
-        return t;
+            return t;
     }
 
     public HdfsOpV3 delete(int version, HdfsOpV3 t) {
